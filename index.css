@@ -1,0 +1,255 @@
+*{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+body{
+background-color: rgb(217, 24, 24);
+width: 100vw;
+height: 100vh;
+
+
+color: white;
+
+
+}
+
+.container-first{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.container-first h1:hover{
+
+color: yellow;
+font-weight: bold;
+
+}
+
+nav ul{
+
+list-style: none;
+padding: 0;
+display: flex;
+
+
+}
+
+nav li a {
+
+margin-right: 20px; 
+color: rgb(245, 234, 234);
+text-decoration: none;
+
+
+}
+
+nav li a:hover{
+
+color: black;
+font-weight: bold;
+
+} 
+
+h1 {
+    margin-top: 6px; /* Remove default margin */
+    
+}
+
+.quote-heading{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   text-align:center;
+   padding-bottom: 20px;
+
+}
+
+.quote-heading:hover {
+
+    color: rgb(250, 249, 249);
+    font-weight: bold;
+    
+}
+
+.container-second{
+
+display: flex;
+justify-content:left;
+
+
+}
+
+
+.first-image img{
+
+
+border: 2px solid blue;
+width: 50vw;
+height: 50vh;
+
+}
+
+.second-image img{
+
+ width: 49.3vw;
+ height: 50vh;
+ border: 2px solid blue;
+
+    
+}
+
+.third-image{
+
+height: 60vh;
+width: 100vw;
+background-color: black;
+
+
+
+}
+
+
+
+.form-register {
+
+margin-top: 10vh;
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center; 
+}
+
+.form-heading{
+
+text-align: center;
+padding-top: 20px;
+font-weight: bold;
+
+}
+
+.form-button{
+
+display: flex;
+flex-direction:column;
+align-items: center;
+}
+
+
+.button-1{
+
+    width: 20vw;
+    height: 10vh;
+    margin-top: 20px;
+    background-color: red;
+   
+   
+
+}
+
+
+#name, #mobile, #age{
+
+
+height: 60px;
+width: 20vw;
+margin-right: 5px;
+
+}
+
+#plan{
+
+    height: 63px;
+    width: 20vw;
+
+}
+
+#name, #mobile, #age, #plan ::placeholder {
+    font-weight: bold;
+
+text-align: center;
+
+
+
+}
+
+
+footer img {
+
+height: 80px;
+margin-left: 35px;
+
+}
+
+/* #lift:hover{
+opacity: 0.5; 
+color: rgb(76, 248, 8);
+} */
+
+footer ul{
+
+list-style:none;
+
+}
+
+footer li{
+
+font-size: 20px;
+text-decoration: none;
+
+}
+
+footer a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.container-footer{
+
+display: flex;
+justify-content:left;
+height: 20vh;
+
+}
+
+.info-box1{
+
+margin-left: 20px;
+
+}
+
+.info-box2{
+
+margin-left: 300px;
+
+}
+
+.info-box-3 img{
+
+height: 30px;
+
+
+}
+
+.info-box-3{
+margin-left: 300px;
+display: flex;
+flex-direction: column;
+}
+
+
+.info-box-3 .heading{
+
+padding-left: 38px;
+margin-bottom: 20px;
+
+
+}
+
